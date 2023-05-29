@@ -1,4 +1,4 @@
-a: str = "Hola pdesde python"
+a: str = "Hola desde python"
 # :str se usa sólo de refencia para saber el programador el tipo de variable
 # type para mostrar el tipo de dato que almacena la variable
 print(type(a))
@@ -41,3 +41,20 @@ if miBooleano:
     print("MI RESULTADO ES: VERDADERO")
 else:
     print("MI RESULTADO ES: FALSO")
+
+#Procesamos entrada del usuario
+
+#funcion "input"
+resultado = input()
+print(resultado)
+
+#Procesar entrada del usuario
+# "input"
+#resultado = input("Ingrese un numero: ")  #input solo regresa String
+#print(resultado)
+
+#conversion de la entrada input a otro tipo de dato
+numero1 = int(input("Escriba el primer numero: "))
+numero2 = int(input("Escriba el segundo numero: "))
+resultado= numero1 + numero2
+print("El resultado es: ", resultado)
