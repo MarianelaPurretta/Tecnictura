@@ -1,12 +1,8 @@
 package clase6;
-
-import java.util.Scanner;
-
-
 public class clase62 {
 
     public static void main(String[] args) {
-        //CLASE6 TIPOS PRIMITIVOS BOOLEANOS
+        CLASE6 TIPOS PRIMITIVOS BOOLEANOS
         /*var varBool = true;
         System.out.println("varBool = " + varBool);
         
@@ -17,9 +13,9 @@ public class clase62 {
             System.out.println("La bandera es roja");
         }
         
-        //ALGORITMO MAYOR DE EDAD
+        ALGORITMO MAYOR DE EDAD
         var edad = 19; //en la literar tener presente la inferencia de tipos
-        //var adulto = edad >= 18;
+        var adulto = edad >= 18;
         if(edad >= 18){
             System.out.println("Eres mayor de edad");
         }
@@ -27,20 +23,20 @@ public class clase62 {
             System.out.println("Eres menor de edad");
         }*/
         //CONVERSION DE TIPOS
-        //funcion para convertir cadena a tipo int
-//        var edad = Integer.parseInt("20"); //clase"Integer" llama al método "parseInt"
-//        System.out.println("edad = " + (edad + 1)); //al concatenar se crea una suma
-//        var valorPI = Double.parseDouble("3.1416");
-//        System.out.println("valorPI = " + valorPI);
-//        
-//        //ahora con la clase Scanner
-//        //pedir valor
-       /* var entrada = new Scanner(System.in); //in indica que se trabajará con la consola
-//        System.out.println("Digite su edad: ");
-//        edad = Integer.parseInt(entrada.nextLine());//no cionciden los tipos entonces colocamos el método parseInt
-//        System.out.println("edad = " + edad);
+        funcion para convertir cadena a tipo int
+        var edad = Integer.parseInt("20"); //clase"Integer" llama al método "parseInt"
+        System.out.println("edad = " + (edad + 1)); //al concatenar se crea una suma
+        var valorPI = Double.parseDouble("3.1416");
+        System.out.println("valorPI = " + valorPI);
+        
+        //ahora con la clase Scanner
+        //pedir valor
+        var entrada = new Scanner(System.in); //in indica que se trabajará con la consola
+        System.out.println("Digite su edad: ");
+        edad = Integer.parseInt(entrada.nextLine());//no cionciden los tipos entonces colocamos el método parseInt
+        System.out.println("edad = " + edad);
 
-        //convertir entero a str
+        convertir entero a str
         var edadTexto = String.valueOf(10);
         System.out.println("edadTexto = " + edadTexto);
         //como recuperar caracter de una cadena
@@ -50,6 +46,12 @@ public class clase62 {
         fraseChar = entrada.nextLine().charAt(0);
         System.out.println("fraseChar = " + fraseChar);
 
+///       CLASE 7 OPERADORES EN JAVA
+          int num1 = 5, num2 = 4;
+          var solucion = num1 + num2;
+          System.out.println("solucion suma = " + solucion);
+             
+        
         
         
         
