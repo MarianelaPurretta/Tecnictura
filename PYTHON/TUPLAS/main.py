@@ -1,16 +1,14 @@
-# This is a sample Python script.
+#DEFINIMOS UNA TUPLA
+cocina = ('cuchara', 'cuchillo', 'tenedor')
+print(cocina)
 
-# Press Mayús+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+#saber el largo de una tupla con len
+print(len(cocina))
 
+#Acceder a un elemento se usan [] no ()
+print(cocina[0])
+print(cocina[-2])
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+#Acceder a un rango
+print(cocina[0:2])
+#Las tuplas necesitan si o si una coma (,) para que sea tupla y no str
