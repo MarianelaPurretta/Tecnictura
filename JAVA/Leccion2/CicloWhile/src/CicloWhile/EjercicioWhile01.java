@@ -15,7 +15,7 @@ public class EjercicioWhile01 {
             System.out.println("contador = " + contador);//código dentro de do
             contador++; //aumento de var
         } while (contador < 7);//condicion entre ()
-         //Etiquetas (labels)
+        //Etiquetas (labels)
         //permiten a break y continue ir a un lugar especifico del programa
         //no es recomendable su uso
         //label "inicio"
@@ -34,8 +34,6 @@ public class EjercicioWhile01 {
                 continue inicio; //pasamos a la siguiente iteracion 
             }
             System.out.println("contar = " + contar);
-        }
-       
-        
+        }     
     }
 }
