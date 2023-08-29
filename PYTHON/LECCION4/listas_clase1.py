@@ -23,6 +23,11 @@ else:
 print(len(lista1))
 # Agregar elementos con nombre de lista + . para acceder a appennd(ej: ('lucia')
 lista1.append('Lucía')
+lista1.append([1, 2, 3])
+lista1.append(True)
+lista1.append(10.12)
+lista1.append([4, 5])
+lista1.append(4)
 print(lista1)
 # se ingresa al final como una fila o cola
 
@@ -46,5 +51,5 @@ lista1.clear()
 print(lista1)
 
 # ELIMINAR LISTA
-del lista1
-print(lista1)
+#del lista1
+#print(lista1)
