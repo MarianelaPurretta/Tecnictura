@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="65cf2e3f-8b0a-470a-941a-0a6f4919f725" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TUPLAS/TUPLAS.py" beforeDir="false" afterPath="$PROJECT_DIR$/../TUPLAS/TUPLAS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SPD/HolaMundo" beforeDir="false" afterPath="$PROJECT_DIR$/../../SPD/HolaMundo" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,14 +27,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/maria/TecnicaturaTrabajos/PYTHON/LECCION4"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/maria/TecnicaturaTrabajos/PYTHON/LECCION4&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\maria\TecnicaturaTrabajos\PYTHON\LECCION4" />
