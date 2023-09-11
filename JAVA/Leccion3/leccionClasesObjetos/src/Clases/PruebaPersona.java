@@ -23,5 +23,15 @@ public class PruebaPersona {
         Los objetos persona1 y persona2 son las instancias que creamos de la clase para
         usar las acciones y caract accediendo al valor
         Cada objeto es distinto y se lo llama Instancia*/
+        Persona persona3 = new Persona();
+        persona3.nombre = "Emir";
+        persona3.apellido = "Siri";
+        persona3.obtenerInformacion();
+        System.out.println("persona3 = "+ persona3);
+        Persona persona4 = new Persona();
+        persona4.nombre = "Sahir";
+        persona4.apellido = "Siri";
+        persona4.obtenerInformacion();
+        System.out.println("persona4 = "+ persona4);
     }
 }
