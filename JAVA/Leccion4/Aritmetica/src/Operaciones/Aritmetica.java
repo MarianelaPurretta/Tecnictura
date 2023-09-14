@@ -15,4 +15,24 @@ public class Aritmetica {
         int resultado = a + b;
         System.out.println("resultado = "+ resultado);
     }
+    //creamos otro metodo, tipo int//nos va aregresar un int
+    public int sumarConRetorno(){
+        int resultado = a + b;
+        return resultado; //o return a + b
+    }
+    //creamos otro metodo:
+    //'public': modificador de acceso- int o void: 'tipo de retorno
+    public int sumarConArgumentos(int arg1, int arg2){ //->nombre del metodo y (los argumentos)
+    //el argumento es la informacion que va a recibir el metodo
+        this.a = arg1; /*modificado, agregamos this. y el arg a se asigna al atributo this.a*/
+        this.b = arg2; /*modificado = */
+        //return a + b; /**/
+        return this.sumarConRetorno();// unimos dos metodos siempre que esten dentro de la misma clase
+        
+        /*'this':var que se crea automaticamente, en el momento que se esta ejec un objeto
+        apunta al espacio de memoria donde esta el objeto para hacer modificaciones
+        su uso es opcional, y se crea automaticamente, permite que los atrib y argum tengan el 
+        mismo nobre y los diferencia*/
+    }
+      
 }
