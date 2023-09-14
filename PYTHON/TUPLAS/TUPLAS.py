@@ -272,4 +272,9 @@ seRetira = cola.pop(0)
 print(f'Atendido el cliente: {seRetira}')
 print(cola)
 
+#Clase 4ej5
+#otra forma de recorrer un diccionario con ciclo for
+for i in seleccionArgentina:
+    print(f'{i} -> {seleccionArgentina[i]}')
+
 
