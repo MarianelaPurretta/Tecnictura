@@ -37,3 +37,22 @@ class Persona{
     }
 }
 console.log(Persona);
+
+//TIPO DE DATO UNDEFINED (cualquier variable no inicializada recibe este tipo de dato)
+var x;
+console.log(typeof x);
+x = undefined;//agregamos un tipo
+console.log(x);
+
+// null: es ausencia de valor, variable, vacía
+var y = null; //null no es un tipo de dato pero su origen es de tipo object
+console.log(typeof y)
+
+//TIPO DE DATO ARRAY Y EMPTY STRING: en JS los arreglos son de tipo object
+var autos = ['Citroen', 'Audi', 'BMW', 'Ford'] //arrays entre corchetes
+console.log(autos);
+console.log(typeof autos); //tipo de dato:
+
+var z = '';
+console.log(z) //tipo de dato cadena pero vacía ->
+console.log(typeof z);
