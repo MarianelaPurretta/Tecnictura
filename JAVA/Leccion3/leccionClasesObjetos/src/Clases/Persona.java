@@ -6,8 +6,8 @@ public class Persona {
     un nombre, atributos y métodos. A partir de una clase creamos objetos*/
     
     //Atributosde la clase(Características)
-    String nombre;
-    String apellido;
+    public String nombre;
+    public String apellido;
    
     
     //Métodos de la clase(Acciones)

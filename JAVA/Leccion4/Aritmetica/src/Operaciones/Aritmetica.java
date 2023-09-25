@@ -7,6 +7,18 @@ public class Aritmetica {
     int a;
     int b;//valor por default=0 al ni inicializar la variable int
     
+    /*El constructor es un método especial que contruye un objeto, reserva un espacio de memoria e 
+    inicializa los atributos de la clase*/
+    public Aritmetica(){ // el primer constructor se crea por defecto y vacío
+        System.out.println("Ejecutando el constructor nro 1");
+    }
+    /*Constructor 2 para ver la sobrecarga*/
+    public Aritmetica(int a, int b){ // en este colocamos parámetros
+        this.a = a;
+        this.b = b;
+        System.out.println("Ejecutando constructor nro 2");
+    }
+    
     //Métodos
     public void sumarNumeros(){ //métodos y atributos, escritura pascalcase
         //cuerpo de la clase: todo lo que está dentro del método
@@ -27,7 +39,7 @@ public class Aritmetica {
         this.a = arg1; /*modificado, agregamos this. y el arg a se asigna al atributo this.a*/
         this.b = arg2; /*modificado = */
         //return a + b; /**/
-        return this.sumarConRetorno();// unimos dos metodos siempre que esten dentro de la misma clase
+        return this.sumarConRetorno(); //unimos dos metodos siempre que esten dentro de la misma clase
         
         /*'this':var que se crea automaticamente, en el momento que se esta ejec un objeto
         apunta al espacio de memoria donde esta el objeto para hacer modificaciones
