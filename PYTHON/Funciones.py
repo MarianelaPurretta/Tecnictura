@@ -73,3 +73,39 @@ def listarNombres(*nombres): #*nombres: es la formapara que varíen los argument
 listarNombres('Lucas', 'José', 'Claudia', 'Rosa', 'María')
 listarNombres('Marcos', 'Daniel', 'Romina', 'Rosario', 'Marianela')# cada vez que llamamos a la función
 #podemos seguir agregando elementos
+
+#definimos nueva función
+def listarTerminos(**terminos): #aquí no usamos args pero tambien se puede usar **kwargs que es el más usado
+    for llave, valor in terminos.items(): #kwargs: key word argument
+        print(f'{llave} : {valor}')
+
+listarTerminos() #No muestra nada, no tiene parámetros
+listarTerminos(IDE='Integrated Develoment Enviroment', PK='Primary Key')
+listarTerminos(Nombre='Leonel Messi') #si se tiene que pasar varios parámetros a la función primero
+#es mejor de manera independiente
+
+def desplegarNombres(nombres):
+    for nombre in nombres:
+        print(nombre)
+nombres2 = ['Marianela', 'Sebastián', 'Emir', 'Sahir']
+desplegarNombres(nombres2) #Lo recorre todo como una lista
+desplegarNombres('Siri') #Lo muestra como una cadena
+#desplegarNombres(23, 5) #no es un objeto iterable por eso tira error
+#podemos lograr que se recorra convirtiendolo con (()) a tupla
+desplegarNombres((10, 11))#para que lo acepte como tupla de estar el primer valor y coma((10,)) aunque sea un solo elem
+desplegarNombres([22, 55]) #también convirtiéndolo en una lista podemos recorrerlo
+
+#FUNCIONES RECURSIVAS
+#TAREA: Pedir que el usuario ingrese el número para calcular su factorial
+numero = int(input('Ingrese un número para calcular: '))
+def factorial(numero):
+    if numero == 1: #Caso base
+        return 1
+    else:
+        return numero * factorial(numero-1) #Caso recursivo
+resultado = factorial(numero) # hacemos la funcion resultado y le pasamos la func de fact
+print(f'El factorial de {numero} es: {resultado}')
+
+
+
+
