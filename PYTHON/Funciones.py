@@ -103,6 +103,7 @@ def factorial(numero):
         return 1
     else:
         return numero * factorial(numero-1) #Caso recursivo
+
 resultado = factorial(numero) # hacemos la funcion resultado y le pasamos la func de fact
 print(f'El factorial de {numero} es: {resultado}')
 
