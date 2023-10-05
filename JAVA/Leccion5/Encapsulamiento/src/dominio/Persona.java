@@ -9,19 +9,19 @@ public class Persona {
     private boolean eliminado;
 
     //constructor: debe llevar mismo nombre que la clase
-    public Persona(String nombre, double sueldo, boolean eliminado){
-        this.nombre = nombre; 
+    public Persona(String nombre, double sueldo, boolean eliminado) {
+        this.nombre = nombre;
         this.sueldo = sueldo;
         this.eliminado = eliminado;
-          
+
     }
+
     /* definimos los métodos que necesitamos: get y set: 
                     *clik derecho 
                     *insert code 
                     *getter and setter
                     *seleccionamos los que queremos crear
-    */
-
+     */
     public String getNombre() { //get va a retornar el método del atributo
         return nombre;
     }
@@ -45,5 +45,12 @@ public class Persona {
     public void setEliminado(boolean eliminado) {
         this.eliminado = eliminado;
     }
-    
+
+    //Creamos y definimos el método *toString*: convierte en una cadena cada atributo
+    public String toString() {
+        return "Persona [ nombre: " + this.nombre
+                + ", sueldo: " + this.sueldo
+                + ", eliminado: " + this.eliminado + " ]";
+    }
+
 }
