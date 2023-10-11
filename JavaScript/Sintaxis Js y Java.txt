@@ -59,4 +59,6 @@ OPERADORES RELACIONALES: //Tipo bool
 >=
 <=
 
-
+OPERADORES LÓGICOS:
+And -> && Doble aspersan 
+Or  ->  

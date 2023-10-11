@@ -34,3 +34,46 @@ let rompiendo = "rompe"; //no usar palabras reservadas para variables
 
 console.log(_1num)
 console.log(rompiendo)
+
+
+//EJERCICIOS//
+/*Con var se puede reasignar en cualquier momento, este formato forma
+parte del ámbito global
+Un error es que se sobreescriba */
+
+var nombre = 'Marianela';
+nombre = 'Sebastián';
+console.log(nombre);
+
+function saludar(){
+    var nombre = 'Emir';
+    console.log(nombre);
+}
+console.log(nombre); //Acá no lee el dato en la funcion
+
+if(true){
+    var edad2 = 34;
+    console.log(edad2); //Funcionó en la función pero no en la estructura if
+
+}/*let: esta puede ser reasignada en cualquier momento, la diferencia es que
+su ámbito es de bloque, solo disponible dentro de un bloque de llaves o 
+dentro de una función*/
+
+function saludar2(){
+    let nombre2 ='Marianela';
+    console.log(nombre2);
+}
+console.log(nombre2);
+ 
+if(true){
+    let edad2 = 33;
+    console.log(edad2);
+}
+console.log(edad2);
+
+/* const se usa para valores constantes que no pueden ser reasignadas*/
+
+const fechaNacimiento = 2006;
+console.log(fechaNacimiento);
+//fechaNacimiento = 2003; //no se puede sobreescribir
+console.log(fechaNacimiento); //Va a ejecutar el console anterior
